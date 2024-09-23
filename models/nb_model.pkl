@@ -1,0 +1,4 @@
+import joblib
+
+# Save the Naive Bayes model to a file
+joblib.dump(nb_classifier, 'models/nb_model.pkl')
